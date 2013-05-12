@@ -30,6 +30,7 @@
 		110A80F8173FA4EA00C099E8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110A80F7173FA4EA00C099E8 /* CoreMedia.framework */; };
 		110A80FA173FA4F200C099E8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110A80F9173FA4F200C099E8 /* AudioToolbox.framework */; };
 		110A80FC173FA6C400C099E8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110A80FB173FA6C400C099E8 /* MediaPlayer.framework */; };
+		1185BCB5173FDD02003F6EDB /* silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1185BCB4173FDD02003F6EDB /* silence.wav */; };
 		11EC8E44173FB7BD00169233 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EC8E43173FB7BD00169233 /* CoreLocation.framework */; };
 		11EC8E48173FBC9700169233 /* KoishiStatusWatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC8E47173FBC9700169233 /* KoishiStatusWatchController.m */; };
 		11EC8E4B173FC11A00169233 /* KoishiWatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC8E4A173FC11900169233 /* KoishiWatchController.m */; };
@@ -107,6 +108,7 @@
 		110A80F7173FA4EA00C099E8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		110A80F9173FA4F200C099E8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		110A80FB173FA6C400C099E8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1185BCB4173FDD02003F6EDB /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
 		11EC8E42173FB5B100169233 /* koishi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = koishi.entitlements; sourceTree = "<group>"; };
 		11EC8E43173FB7BD00169233 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		11EC8E46173FBC9700169233 /* KoishiStatusWatchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KoishiStatusWatchController.h; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 		110A8048173F870D00C099E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1185BCB4173FDD02003F6EDB /* silence.wav */,
 				110A8049173F870D00C099E8 /* koishi-Info.plist */,
 				110A804A173F870D00C099E8 /* InfoPlist.strings */,
 				110A804D173F870D00C099E8 /* main.m */,
@@ -488,6 +491,7 @@
 				110A8056173F870D00C099E8 /* Default@2x.png in Resources */,
 				110A8058173F870D00C099E8 /* Default-568h@2x.png in Resources */,
 				110A80F2173F9DD100C099E8 /* Settings.plist in Resources */,
+				1185BCB5173FDD02003F6EDB /* silence.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
